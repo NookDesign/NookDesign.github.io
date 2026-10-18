@@ -5,7 +5,7 @@
    ========================================================= */
 const CONTACT = {
   // クラウドワークスのプロフィールページのURL（例："https://crowdworks.jp/public/employees/0000000"）
-  crowdworks: "",
+  crowdworks: "https://crowdworks.jp/public/employees/7281456?ref=share_url_wkprofile",
   // お問い合わせ用のメールアドレス（例："info@example.com"）
   email: "nook.design.work@gmail.com"
 };

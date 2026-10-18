@@ -499,7 +499,7 @@ body.is-nav-open { overflow: hidden; }
 /* ===== お問い合わせ ===== */
 .contact-methods { display: grid; gap: 16px; }
 .contact-method {
-  padding: 28px 24px;
+  padding: 28px 16px;
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -514,7 +514,7 @@ body.is-nav-open { overflow: hidden; }
 .contact-method__title { margin-top: 4px; font-size: 1.15rem; line-height: 1.5; }
 .contact-method__text { margin-top: 8px; font-size: .95rem; color: var(--charcoal-soft); }
 .contact-method__action { margin-top: 20px; }
-.contact-method__action .btn { width: 100%; max-width: 320px; }
+.contact-method__action .btn { width: 100%; max-width: 320px; padding-inline: 16px; letter-spacing: .04em; }
 .contact-method__pending {
   display: inline-block;
   padding: 10px 20px;
@@ -578,7 +578,7 @@ body.is-nav-open { overflow: hidden; }
   .problem-list { grid-template-columns: 1fr 1fr; }
   .feature-list { grid-template-columns: 1fr 1fr; gap: 48px 40px; }
   .contact-methods { grid-template-columns: 1fr 1fr; }
-  .contact-method { display: flex; flex-direction: column; }
+  .contact-method { display: flex; flex-direction: column; padding-inline: 24px; }
   .contact-method__action { margin-top: auto; padding-top: 20px; }
   .footer-nav ul { grid-template-columns: repeat(4, auto); justify-content: start; gap: 0 32px; }
 }
