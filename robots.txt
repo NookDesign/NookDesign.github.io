@@ -1,0 +1,5 @@
+# すべての検索エンジンに、サイト全体の表示を許可します
+User-agent: *
+Allow: /
+
+Sitemap: https://nookdesign.github.io/sitemap.xml
